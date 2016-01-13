@@ -34,3 +34,5 @@ Now get this onto github:
 add sje30.github.io repo
 
 git submodule add git@github.com:sje30/sje30.github.io.git public
+
+hugo new post/learninghugo.md

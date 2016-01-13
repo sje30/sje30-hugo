@@ -1,0 +1,36 @@
+clone one theme.
+
+
+mkdir themes
+cd themes
+git clone git@github.com:tummychow/lanyon-hugo.git
+
+Create a new site.
+
+hugo new site
+
+hugo new site . --force=true
+
+force needed because I already created the directories myself.
+
+Got error:
+ERROR: 2016/01/13 Error while rendering page about.md: template:
+theme/_default/single.html:5:47: executing
+"theme/_default/single.html" at <.Site.Params.DateFor...>: invalid
+value; expected string
+
+fix this in the config.
+https://discuss.gohugo.io/t/parsing-dates-in-templates/603/7
+
+by adding following to config.toml
+
+[Params]
+	DateForm = "Jan 2 2006"
+
+
+
+Now get this onto github:
+
+add sje30.github.io repo
+
+

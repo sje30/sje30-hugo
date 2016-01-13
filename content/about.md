@@ -5,7 +5,7 @@ title = "About me"
 sidebar = true
 +++
 
-This is my 'about me' page.  It appears in the sidebar thanks to the
+1 This is my 'about me' page.  It appears in the sidebar thanks to the
 heading..
 
 Bio/ contact details here.
